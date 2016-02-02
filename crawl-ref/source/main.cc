@@ -2785,6 +2785,20 @@ static bool _cancel_confused_move(bool stationary)
     return false;
 }
 
+// Chance of a fully random move, or else move towards our chosen
+// direction or one of the adjacent directions.
+static coord_def _get_confused_dir(coord_def move)
+{
+    if (one_chance_in(3))
+    {
+        move.x = random2(3) - 1;
+        move.y = random2(3) - 1;
+    }
+    else
+        move = rotate_adjacent(move, random2(3) - 1);
+
+    return move;
+}
 
 static void _swing_at_target(coord_def move)
 {
@@ -2806,16 +2820,13 @@ static void _swing_at_target(coord_def move)
         if (_cancel_confused_move(true))
             return;
 
-        if (!one_chance_in(3))
+        move = _get_confused_dir(move);
+
+        if (move.origin())
         {
-            move.x = random2(3) - 1;
-            move.y = random2(3) - 1;
-            if (move.origin())
-            {
-                mpr("You nearly hit yourself!");
-                you.turn_is_over = true;
-                return;
-            }
+            mpr("You nearly hit yourself!");
+            you.turn_is_over = true;
+            return;
         }
     }
 
@@ -3187,17 +3198,15 @@ static void _move_player(coord_def move)
         if (_cancel_barbed_move())
             return;
 
-        if (!one_chance_in(3))
+        move = _get_confused_dir(move);
+
+        you.reset_prev_move();
+        if (move.origin())
         {
-            move.x = random2(3) - 1;
-            move.y = random2(3) - 1;
-            if (move.origin())
-            {
-                mpr("You're too confused to move!");
-                you.apply_berserk_penalty = true;
-                you.turn_is_over = true;
-                return;
-            }
+            mpr("You're too confused to move!");
+            you.apply_berserk_penalty = true;
+            you.turn_is_over = true;
+            return;
         }
 
         const coord_def new_targ = you.pos() + move;
