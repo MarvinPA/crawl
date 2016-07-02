@@ -3158,9 +3158,6 @@ conduct_type player_will_anger_monster(const monster &mon)
     if (god_hates_spellcasting(you.religion) && mon.is_actual_spellcaster())
         return DID_SPELL_CASTING;
 
-    if (you_worship(GOD_DITHMENOS) && mons_is_fiery(mon))
-        return DID_FIRE;
-
     return DID_NOTHING;
 }
 
