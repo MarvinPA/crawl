@@ -53,7 +53,7 @@ static const map<species_type, species_def> species_data =
     MONS_CENTAUR,
     HT_LAND, US_ALIVE, SIZE_LARGE,
     10, 7, 4, // 21
-    { STAT_STR, STAT_DEX }, 4,
+    { STAT_STR, STAT_DEX }, 5,
     { { MUT_TOUGH_SKIN, 3, 1 }, { MUT_FAST, 2, 1 },  { MUT_DEFORMED, 1, 1 },
       { MUT_HOOVES, 3, 1 }, },
     {},
@@ -71,7 +71,7 @@ static const map<species_type, species_def> species_data =
     MONS_DEEP_DWARF,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     11, 8, 8, // 27
-    { STAT_STR, STAT_INT }, 4,
+    { STAT_STR, STAT_INT }, 5,
     { { MUT_SLOW_REGENERATION, 3, 1 }, { MUT_PASSIVE_MAPPING, 1, 1 },
       { MUT_PASSIVE_MAPPING, 1, 9 }, { MUT_PASSIVE_MAPPING, 1, 18 },
       { MUT_NEGATIVE_ENERGY_RESISTANCE, 1, 14 }, },
@@ -91,7 +91,7 @@ static const map<species_type, species_def> species_data =
     MONS_ELF,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     5, 12, 10, // 27
-    { STAT_INT }, 4,
+    { STAT_INT }, 3,
     {},
     {},
     {},
@@ -127,7 +127,7 @@ static const map<species_type, species_def> species_data =
     MONS_DRACONIAN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     { { MUT_COLD_BLOODED, 1, 1 }, },
     {},
     {},
@@ -146,7 +146,7 @@ static const map<species_type, species_def> species_data =
     MONS_RED_DRACONIAN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     { { MUT_COLD_BLOODED, 1, 1 }, { MUT_HEAT_RESISTANCE, 1, 7 }, },
     { "You can breathe blasts of fire." },
     { "breathe fire" },
@@ -162,7 +162,7 @@ static const map<species_type, species_def> species_data =
     MONS_WHITE_DRACONIAN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     { { MUT_COLD_BLOODED, 1, 1 }, { MUT_COLD_RESISTANCE, 1, 7 }, },
     { "You can breathe waves of freezing cold.",
       "You can buffet flying creatures when you breathe cold." },
@@ -179,7 +179,7 @@ static const map<species_type, species_def> species_data =
     MONS_GREEN_DRACONIAN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     { { MUT_COLD_BLOODED, 1, 1 }, { MUT_POISON_RESISTANCE, 1, 7 },
       { MUT_STINGER, 1, 14 }, },
     { "You can breathe blasts of noxious fumes." },
@@ -196,7 +196,7 @@ static const map<species_type, species_def> species_data =
     MONS_YELLOW_DRACONIAN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     { { MUT_COLD_BLOODED, 1, 1 }, { MUT_ACIDIC_BITE, 1, 14 }, },
     { "You can spit globs of acid.", "You are resistant to acid." },
     { "spit acid", "acid resistance" },
@@ -212,7 +212,7 @@ static const map<species_type, species_def> species_data =
     MONS_GREY_DRACONIAN,
     HT_AMPHIBIOUS, US_ALIVE, SIZE_MEDIUM,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     { { MUT_COLD_BLOODED, 1, 1 }, { MUT_UNBREATHING, 1, 7 }, },
     { "You can walk through water." },
     { "walk through water" },
@@ -228,7 +228,7 @@ static const map<species_type, species_def> species_data =
     MONS_BLACK_DRACONIAN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     { { MUT_COLD_BLOODED, 1, 1 }, { MUT_SHOCK_RESISTANCE, 1, 7 },
       { MUT_BIG_WINGS, 1, 14 }, },
     { "You can breathe wild blasts of lightning." },
@@ -245,7 +245,7 @@ static const map<species_type, species_def> species_data =
     MONS_PURPLE_DRACONIAN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     { { MUT_COLD_BLOODED, 1, 1 }, },
     { "You can breathe bolts of dispelling energy." },
     { "breathe power" },
@@ -262,7 +262,7 @@ static const map<species_type, species_def> species_data =
     MONS_MOTTLED_DRACONIAN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     { { MUT_COLD_BLOODED, 1, 1 }, },
     { "You can spit globs of burning liquid.",
       "You can ignite nearby creatures when you spit burning liquid." },
@@ -280,7 +280,7 @@ static const map<species_type, species_def> species_data =
     MONS_PALE_DRACONIAN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     { { MUT_COLD_BLOODED, 1, 1 }, },
     { "You can breathe blasts of scalding, opaque steam." },
     { "breathe steam" },
@@ -296,7 +296,7 @@ static const map<species_type, species_def> species_data =
     MONS_DEMONSPAWN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     8, 9, 8, // 25
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 5,
     {},
     {},
     {},
@@ -337,7 +337,7 @@ static const map<species_type, species_def> species_data =
     MONS_FORMICID,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     12, 7, 6, // 25
-    { STAT_STR, STAT_INT }, 4,
+    { STAT_STR, STAT_INT }, 5,
     { { MUT_ANTENNAE, 3, 1 }, },
     { "You cannot be hasted, slowed, berserked, paralysed or teleported.",
       "You can dig through walls and to a lower floor.",
@@ -395,7 +395,7 @@ static const map<species_type, species_def> species_data =
     MONS_GARGOYLE,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     11, 8, 5, // 24
-    { STAT_STR, STAT_INT }, 4,
+    { STAT_STR, STAT_INT }, 5,
     { { MUT_ROT_IMMUNITY, 1, 1 }, { MUT_NEGATIVE_ENERGY_RESISTANCE, 1, 1 },
       { MUT_PETRIFICATION_RESISTANCE, 1, 1 }, { MUT_SHOCK_RESISTANCE, 1, 1 },
       { MUT_UNBREATHING, 1, 1 }, { MUT_BIG_WINGS, 1, 14 }, },
@@ -448,7 +448,7 @@ static const map<species_type, species_def> species_data =
     MONS_HUMAN,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     8, 8, 8, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 3,
     {},
     {},
     {},
@@ -502,7 +502,7 @@ static const map<species_type, species_def> species_data =
     MONS_MINOTAUR,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     12, 5, 5, // 22
-    { STAT_STR, STAT_DEX }, 4,
+    { STAT_STR, STAT_DEX }, 5,
     { { MUT_HORNS, 2, 1 }, },
     { "You reflexively headbutt those who attack you in melee." },
     { "retaliatory headbutt" },
@@ -542,7 +542,7 @@ static const map<species_type, species_def> species_data =
     MONS_NAGA,
     HT_LAND, US_ALIVE, SIZE_LARGE,
     10, 8, 6, // 24
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 3,
     { { MUT_ACUTE_VISION, 1, 1 }, { MUT_SLOW, 2, 1 },  { MUT_DEFORMED, 1, 1 },
       { MUT_SPIT_POISON, 1, 1 },  { MUT_POISON_RESISTANCE, 1, 1 },
       { MUT_SLOW_METABOLISM, 1, 1 }, { MUT_CONSTRICTING_TAIL, 1, 13 } },
@@ -617,7 +617,7 @@ static const map<species_type, species_def> species_data =
     MONS_TENGU,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     8, 8, 9, // 25
-    { STAT_STR, STAT_INT, STAT_DEX }, 4,
+    { STAT_STR, STAT_INT, STAT_DEX }, 3,
     { { MUT_BEAK, 1, 1 }, { MUT_TALONS, 3, 1 },
       { MUT_TENGU_FLIGHT, 1, 5 }, { MUT_TENGU_FLIGHT, 1, 14 }, },
     {},
@@ -674,7 +674,7 @@ static const map<species_type, species_def> species_data =
     MONS_VINE_STALKER,
     HT_LAND, US_ALIVE, SIZE_MEDIUM,
     10, 8, 9, // 27
-    { STAT_STR, STAT_DEX }, 4,
+    { STAT_STR, STAT_DEX }, 5,
     { { MUT_FANGS, 2, 1 }, { MUT_FANGS, 1, 8 },
       { MUT_MANA_SHIELD, 1, 1 }, { MUT_ANTIMAGIC_BITE, 1, 1 },
       { MUT_NO_POTION_HEAL, 3, 1 }, { MUT_ROT_IMMUNITY, 1, 1 },
