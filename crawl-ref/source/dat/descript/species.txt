@@ -53,9 +53,9 @@ Gargoyle
 Made of living stone, Gargoyles have a preternatural affinity for the earth.
 They have low health, but their stone bodies are incredibly tough.
 %%%%
-Halfling
+Goblin
 
-Small but hardy, Halflings excel with slings. They have an increased resistance
+Small but hardy, Goblin excel with slings. They have an increased resistance
 to mutagenic effects.
 %%%%
 Hill Orc

@@ -195,7 +195,6 @@ ghoul CORPSE_GHOUL
 orcs/orc CORPSE_ORC
 
 ## Human shaped ('p')
-halfling CORPSE_HALFLING
 %sdir mon/humanoids/humans
 human CORPSE_HUMAN
 killer_klown_blue CORPSE_KILLER_KLOWN

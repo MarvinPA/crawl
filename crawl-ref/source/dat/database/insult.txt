@@ -1200,9 +1200,9 @@ filth-coat
 gob-dollager
 %%%%
 ##########################################################
-# noun, Halfling special
+# noun, Goblin special
 ##########################################################
-insult halfling noun
+insult goblin noun
 
 w:100
 @small_food@

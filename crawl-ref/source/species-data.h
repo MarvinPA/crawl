@@ -407,12 +407,12 @@ static const map<species_type, species_def> species_data =
     { SK_MACES_FLAILS, SK_STAVES, SK_BOWS, SK_CROSSBOWS },
 } },
 
-{ SP_HALFLING, {
-    "Ha",
-    "Halfling", nullptr, nullptr,
+{ SP_GOBLIN, {
+    "Go",
+    "Goblin", nullptr, nullptr,
     SPF_NONE,
     1, -1, 0, 3,
-    MONS_HALFLING,
+    MONS_GOBLIN,
     HT_LAND, US_ALIVE, SIZE_SMALL,
     9, 6, 9, // 24
     { STAT_DEX }, 5,

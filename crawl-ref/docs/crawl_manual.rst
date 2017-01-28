@@ -1441,31 +1441,26 @@ Merfolk
   still remains. The instability of their own morphogenic matrix has made them
   very accomplished transmuters, but most other magic seems foreign to them.
 
-Halflings
-  Halflings, who are named for being about half the size of Humans, live in
-  small villages. They live simple lives and have simple interests. Sometimes a
-  particularly restless Halfling will leave his or her village in search of
-  adventure.
-
-  Halflings are very small but surprisingly hardy for their size, even having an
+Goblins
+  Goblins are very small but surprisingly hardy for their size, even having an
   innate resistance to mutagenic effects. They can use short blades and shields
   very well, are passable with long blades, and excel in ranged combat with
   slings. They are also very stealthy and dextrous, but are poor at magic
   (except for charms, translocations, and air magic). They advance in levels as
-  rapidly as Humans. Halflings cannot wield large weapons.
+  rapidly as Humans. Goblins cannot wield large weapons.
 
 Kobolds
   Kobolds are small, ugly creatures with few redeeming features. They are not
   the sort of people you would want to spend much time with, unless you happened
   to be a Kobold yourself.
 
-  They tend to be more agile and weaker than Halflings, and are slightly more
+  They tend to be more agile and weaker than Goblins, and are slightly more
   talented at using most types of magic, particularly necromancy. They are
   competent in combat, especially with short blades, maces or crossbows, and are
   also very adept at using magical devices. They often live as scavengers,
   surviving on carrion (which they can eat even when not hungry), but are
   carnivorous and can only eat meat. Kobolds advance in levels as quickly as
-  Humans. Like Halflings, Kobolds cannot wield large weapons.
+  Humans. Like Goblins, Kobolds cannot wield large weapons.
 
 Spriggans
   Spriggans are small magical creatures distantly related to Elves. They love to

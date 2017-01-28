@@ -2748,8 +2748,8 @@ enum monster_type                      // menv[].type
     MONS_ALLIGATOR_SNAPPING_TURTLE,
 #if TAG_MAJOR_VERSION == 34
     MONS_GNOME,
+    MONS_HALFLING,
 #endif
-    MONS_HALFLING,              // recolouring + single vault.
     MONS_FELID,                 // recolouring + single vault. Miaow!
     MONS_VAMPIRE_BAT,           // recolouring + vaults
     MONS_DEMIGOD,               // recolouring + single vault
@@ -4121,7 +4121,7 @@ enum size_type
 {
     SIZE_TINY,              // rats/bats
     SIZE_LITTLE,            // spriggans
-    SIZE_SMALL,             // halflings/kobolds
+    SIZE_SMALL,             // goblins/kobolds
     SIZE_MEDIUM,            // humans/elves/dwarves
     SIZE_LARGE,             // trolls/ogres/centaurs/nagas
     SIZE_BIG,               // large quadrupeds
@@ -4226,7 +4226,7 @@ enum species_type
 #if TAG_MAJOR_VERSION == 34
     SP_SLUDGE_ELF,
 #endif
-    SP_HALFLING,
+    SP_GOBLIN,
     SP_HILL_ORC,
     SP_KOBOLD,
     SP_MUMMY,

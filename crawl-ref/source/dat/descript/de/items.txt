@@ -363,7 +363,7 @@ javelin
 Dieser leichtgewichtige Speer wurde zum werfen entworfen und verursacht ernste
 Verwundungen .
 {{
-    if you.race() == "Halfling"
+    if you.race() == "Goblin"
         or you.race() == "Kobold"
         or you.race() == "Spriggan"
     then

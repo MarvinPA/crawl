@@ -122,8 +122,8 @@ function species_mock(e)
     e.kmons("1 = deep dwarf zombie")
   elseif you.race() == "Deep Elf" then
     e.kmons("1 = insubstantial wisp")
-  elseif you.race() == "Halfling" then
-    e.kmons("1 = hobgoblin ; mundane hunting sling")
+  elseif you.race() == "Goblin" then
+    e.kmons("1 = goblin ; nothing")
   elseif you.race() == "Hill Orc" then
     e.kmons("1 = goblin ; mundane hand axe . mundane ring mail")
   elseif you.race() == "Human" then

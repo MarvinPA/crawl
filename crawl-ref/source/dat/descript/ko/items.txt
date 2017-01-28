@@ -363,7 +363,7 @@ javelin
 
 이 가벼운 창은 투척용으로 만들어졌으며, 적에게 큰 피해를 줄 수 있을 것 같다.
 {{
-    if you.race() == "Halfling"
+    if you.race() == "Goblin"
         or you.race() == "Kobold"
         or you.race() == "Spriggan"
     then

@@ -29,8 +29,8 @@ frog2_f
 frog2_m
 gnome_f
 gnome_m
-halfling_m HALFLING
-halfling_f
+goblin_m GOBLIN
+goblin_f
 orc_f ORC
 orc_m
 %rim 0

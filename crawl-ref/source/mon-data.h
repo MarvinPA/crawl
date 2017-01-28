@@ -103,7 +103,7 @@
    size:
      SIZE_TINY,              // rats/bats
      SIZE_LITTLE,            // spriggans
-     SIZE_SMALL,             // halflings/kobolds
+     SIZE_SMALL,             // goblins/kobolds
      SIZE_MEDIUM,            // humans/elves/dwarves
      SIZE_LARGE,             // trolls/ogres/centaurs/nagas
      SIZE_BIG,               // large quadrupeds
@@ -278,6 +278,7 @@ static monsterentry mondata[] =
     AXED_MON(MONS_MOTTLED_DRACONIAN)
     AXED_MON(MONS_DRACONIAN_ZEALOT)
     AXED_MON(MONS_HILL_GIANT)
+    AXED_MON(MONS_HALFLING)
 #endif
 
 // Used for genus monsters (which are used for grouping monsters by how they
@@ -1994,19 +1995,6 @@ DUMMY(MONS_GIANT_LIZARD, 'l', LIGHTGREY, "giant lizard", TILEP_MONS_LEOPARD_GECK
     I_HUMAN, HT_LAND, 10, DEFAULT_ENERGY,
     MONUSE_WEAPONS_ARMOUR, SIZE_MEDIUM, MON_SHAPE_HUMANOID,
     {TILEP_MONS_DEMIGOD}, TILE_CORPSE_HUMAN
-},
-
-{ // dummy... literally; single vault
-    MONS_HALFLING, 'p', LIGHTGREY, "halfling",
-    M_WARM_BLOOD | M_SPEAKS | M_NO_POLY_TO,
-    MR_NO_FLAGS,
-    10, MONS_HALFLING, MONS_HALFLING, MH_NATURAL, 10,
-    { {AT_HIT, AF_PLAIN, 6}, AT_NO_ATK, AT_NO_ATK, AT_NO_ATK },
-    3, 105,
-    2, 12, MST_NO_SPELLS, CE_CLEAN, S_SHOUT,
-    I_HUMAN, HT_LAND, 10, DEFAULT_ENERGY,
-    MONUSE_WEAPONS_ARMOUR, SIZE_SMALL, MON_SHAPE_HUMANOID,
-    {TILEP_MONS_HALFLING}, TILE_CORPSE_HALFLING
 },
 
 // rodents ('r')
