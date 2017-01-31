@@ -5993,7 +5993,7 @@ bool monster::evoke_jewellery_effect(jewellery_type jtype)
 void monster::react_to_damage(const actor *oppressor, int damage,
                                beam_type flavour)
 {
-    if (has_ench(ENCH_PAIN_BOND))
+    if (has_ench(ENCH_PAIN_BOND) && flavour != BEAM_SHARED_PAIN)
         radiate_pain_bond(*this, damage);
 
     // Don't discharge on small amounts of damage (this helps avoid
