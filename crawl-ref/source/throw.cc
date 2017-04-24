@@ -624,8 +624,8 @@ static void _throw_noise(actor* act, const bolt &pbolt, const item_def &ammo)
         return;
 
     // Throwing and blowguns are silent...
-    int         level = 0;
-    const char* msg   = nullptr;
+    const int level = property(*launcher, PWPN_DAMAGE) / 2;
+    const char* msg  = nullptr;
 
     switch (launcher->sub_type)
     {
@@ -633,31 +633,24 @@ static void _throw_noise(actor* act, const bolt &pbolt, const item_def &ammo)
         return;
 
     case WPN_HUNTING_SLING:
-        level = 1;
         msg   = "You hear a whirring sound.";
         break;
     case WPN_FUSTIBALUS:
-        level = 3;
         msg   = "You hear a loud whirring sound.";
         break;
     case WPN_SHORTBOW:
-        level = 5;
         msg   = "You hear a twanging sound.";
         break;
     case WPN_LONGBOW:
-        level = 6;
         msg   = "You hear a loud twanging sound.";
         break;
     case WPN_HAND_CROSSBOW:
-        level = 2;
-        msg   = "You hear a quiet thunk.";
-        break;
-    case WPN_ARBALEST:
-        level = 7;
         msg   = "You hear a thunk.";
         break;
+    case WPN_ARBALEST:
+        msg   = "You hear a loud thunk.";
+        break;
     case WPN_TRIPLE_CROSSBOW:
-        level = 9;
         msg   = "You hear a triplet of thunks.";
         break;
 
